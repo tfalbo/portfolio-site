@@ -7,18 +7,34 @@
 
 
 header{
-  min-height: 150px;
+  display: flex;
+  order: 1;
+  width: 100%;
+  min-height: 200px;
   border: 1px solid black;
 }
 
-#logo{
-  width:20%;
-  border: 1px solid black;
+.logo{
+  order: 1;
+  border: 1px solid blue;
+  width: 20%;
+  min-height: 200px;
+  text-indent: -9999px;
+  background: url(../img/udacity.svg) no-repeat;
+  background-size: 200px;
 }
 
-#name{
-  width:80%;
-  border: 1px solid black;
+
+.name{
+  order: 2;
+  width: 80%;
+  min-height:200px;
+  border: 1px solid red;
+}
+
+.name_text{
+  width:100%;
+  float: right;
 }
 
 
