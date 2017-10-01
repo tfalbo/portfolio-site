@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+
+header{
+  min-height: 150px;
+  border: 1px solid black;
+}
+
+#logo{
+  width:20%;
+  border: 1px solid black;
+}
+
+#name{
+  width:80%;
+  border: 1px solid black;
+}
+
+
+section{
+  border: 1px solid black;
+}
+
+article {
+  border: 1px solid black;
+}
