@@ -8,7 +8,7 @@ body{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 
@@ -17,12 +17,12 @@ header{
   order: 1;
   width: 100%;
   min-height: 200px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .logo{
   order: 1;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   width: 25%;
   min-height: 200px;
   text-indent: -9999px;
@@ -35,7 +35,7 @@ header{
   order: 2;
   width: 75%;
   min-height:200px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   text-align: right;
 }
 
@@ -47,11 +47,20 @@ h3{
   font-size: 36px;
 }
 
+.break {
+  order: 2;
+  width: 100%;
+  height: 5px;
+  background-color: #7d97ad;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 section{
-  order:2;
+  order:3;
   width:100%;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .featured{
@@ -66,7 +75,7 @@ img{
 article {
   order:1;
   width: 100%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   text-align: center;
 }
 
