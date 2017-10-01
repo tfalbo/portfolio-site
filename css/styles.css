@@ -30,18 +30,21 @@ header{
   width: 80%;
   min-height:200px;
   border: 1px solid red;
-}
-
-.name_text{
-  width:100%;
-  float: right;
+  text-align: right;
 }
 
 
 section{
-  border: 1px solid black;
+  order:2;
+  width:100%;
+  border: 1px solid green;
+}
+
+img{
+  width:100%;
 }
 
 article {
+  order:1;
   border: 1px solid black;
 }
