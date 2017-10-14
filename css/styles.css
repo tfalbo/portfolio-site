@@ -39,11 +39,12 @@ header {
   text-align: center;
 }
 
-h1 {
+.name_title {
   font-size: 64px;
+  font-weight: 400;
 }
 
-h3 {
+.name_subtitle {
   font-size: 36px;
 }
 
@@ -71,6 +72,7 @@ section {
 
 .featured {
   color:  #7d97ad;
+  font-size: 46px;
 
 
 }
