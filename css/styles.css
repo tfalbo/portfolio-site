@@ -1,14 +1,18 @@
+/** {
+  border: 1px solid hotpink;
+}*/
+
 body{
   color: #2d3c49;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  padding: 10px;
 }
 
 .container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  /*border: 1px solid black;*/
 }
 
 
@@ -17,16 +21,14 @@ header{
   order: 1;
   width: 100%;
   min-height: 200px;
-  /*border: 1px solid black;*/
 }
 
 .logo{
   order: 1;
-  /*border: 1px solid blue;*/
   width: 25%;
   min-height: 200px;
   text-indent: -9999px;
-  background: url(../img/udacity.svg) no-repeat;
+  background: url(http://www.thaissa.eng.br/portfolio-site/img/udacity.svg) no-repeat;
   background-size: 240px;
 }
 
@@ -35,7 +37,6 @@ header{
   order: 2;
   width: 75%;
   min-height:200px;
-  /*border: 1px solid red;*/
   text-align: right;
 }
 
@@ -60,7 +61,8 @@ h3{
 section{
   order:3;
   width:100%;
-  /*border: 1px solid green;*/
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .featured{
@@ -73,9 +75,8 @@ img{
 }
 
 article {
-  order:1;
+  margin: 10px;
   width: 100%;
-  /*border: 1px solid black;*/
   text-align: center;
 }
 
@@ -85,4 +86,17 @@ article {
 
 .article_link{
   font-size: 36px;
+}
+
+
+@media screen and (min-width: 768px) {
+  article {
+    max-width:31%;
+  }
+  .article_title{
+    font-size: 36px;
+  }
+  .article_link{
+    font-size: 16px;
+  }
 }
