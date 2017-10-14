@@ -2,9 +2,9 @@
   border: 1px solid hotpink;
 }*/
 
-body{
+body {
   color: #2d3c49;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   padding: 10px;
 }
@@ -16,7 +16,7 @@ body{
 }
 
 
-header{
+header {
   display: flex;
   flex-wrap: wrap;
   order: 1;
@@ -24,7 +24,7 @@ header{
   min-height: 200px;
 }
 
-.logo{
+.logo {
   margin: auto;
   order: 1;
   width: 70%;
@@ -32,18 +32,18 @@ header{
 }
 
 
-.name{
+.name {
   order: 2;
   width: 100%;
   min-height:200px;
   text-align: center;
 }
 
-h1{
+h1 {
   font-size: 64px;
 }
 
-h3{
+h3 {
   font-size: 36px;
 }
 
@@ -57,19 +57,24 @@ h3{
 }
 
 
-section{
+section {
   order:3;
   width:100%;
+  margin:auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-.featured{
+.big_image_div{
+  margin: 0 auto;
+}
+
+.featured {
   color:  #7d97ad;
 
 
 }
-img{
+img {
   width:100%;
 }
 
@@ -79,11 +84,11 @@ article {
   text-align: center;
 }
 
-.article_title{
+.article_title {
   font-size: 48px;
 }
 
-.article_link{
+.article_link {
   font-size: 36px;
 }
 
@@ -102,10 +107,10 @@ article {
   article {
     max-width:31%;
   }
-  .article_title{
+  .article_title {
     font-size: 36px;
   }
-  .article_link{
+  .article_link {
     font-size: 16px;
   }
 }
