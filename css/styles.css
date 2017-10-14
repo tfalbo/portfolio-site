@@ -72,10 +72,9 @@ section {
 
 .featured {
   color:  #7d97ad;
-  font-size: 46px;
-
-
+  font-size: 36px;
 }
+
 img {
   width:100%;
 }
@@ -87,14 +86,14 @@ article {
 }
 
 .article_title {
-  font-size: 48px;
+  font-size: 28px;
 }
 
 .article_link {
-  font-size: 36px;
+  font-size: 20px;
 }
 
-
+/* For iPad and larger screens */
 @media screen and (min-width: 768px) {
   .logo {
     width:25%;
@@ -106,6 +105,9 @@ article {
     text-align: right;
   }
 
+.featured {
+  font-size: 46px;
+}
   article {
     max-width:31%;
   }
