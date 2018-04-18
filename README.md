@@ -14,4 +14,4 @@ Flexbox was used to get the responsible layout.
 
 # Where?
 
-An example can be seen [here](http://www.thaissa.eng.br/portfolio-site/)
+An example can be seen [here](http://www.thaissa.me/portfolio-site/)
